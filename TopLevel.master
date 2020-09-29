@@ -1,0 +1,132 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TopLevel.master.cs" Inherits="TopLevel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+        <head id="Head1" runat="server">
+    <title>New Tech Book Store</title>
+    <style>
+        a:link{color:#FFFFFF;text-decoration:none}      
+        a:visited{color:#FFFFFF;text-decoration:none}     
+        a:active{color:##FFFFFF;text-decoration:none} 
+        a:hover{color:##FFFFFF;text-decoration:none} 
+    </style>
+</head>
+<body style='color: #FFFFFF; font-family: Verdana,Tahoma,Arial; font-size: 10pt;'>
+    <form id="form1" runat="server">
+        <table width="100%" cellpadding="3" cellspacing="3">
+            <tr>
+                <td align="right" colspan="4" style="height: 65px; background-color: #330000; vertical-align: middle; text-align: center;">
+                    <asp:Image ID="Image1" runat="server" Height="86px" ImageUrl="~/BookLogo.jpg" Width="532px" />&nbsp;<br />
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="1" style="height: 15px; background-color: #330000; vertical-align: middle; text-align: left;">
+                    <asp:SiteMapPath ID="SiteMapPath2" runat="server" style="text-align: left" >
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="3" cellspacing="3">
+            <tr>
+                <td 
+                    style="background-attachment: scroll; background-image: url(Images/AdvTable.JPG);
+                    width: 1%; background-repeat: repeat-y; background-color: #330000; height: 314px;" 
+                    valign="top">
+                    <table  cellspacing='1' cellpadding='1' style='font-family: Verdana,Tahoma,Arial;
+                        font-size: 8pt;' width="100%">
+                        <tr>
+                            <td style="border-bottom-style: dotted; border-bottom-width: 1; height: 19px; background-color: #330000; width: 89px;">
+                                <br />
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/default.aspx">Home</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/aboutUs.aspx">About us</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/feedbackform.aspx">Feedback</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/survey.aspx">Survey</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/howtobuy.aspx"
+                                    Width="86px">How to buy</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Bestsellers.aspx"
+                                    Width="86px">Bestsellers</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/ContactUs.aspx" Width="86px">Contact us</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/BookDetails.aspx" Width="86px">Book details</asp:HyperLink><br />
+                            <br />
+                                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Personalize.aspx" Width="86px">Personalize</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Admin/ManageRoles.aspx" Width="86px">Manage Roles</asp:HyperLink><br />
+                                <br />
+                                <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Admin/ManageSite.aspx" Width="86px">ManageSite</asp:HyperLink><br />
+                            </td>
+                        </tr>
+                       
+                    </table>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td align="left" style="width: 80%; height: 314px;" valign="top">
+                    <asp:Label ID="lblMaster" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#FFFFC0"
+                        Height="33px" Style="vertical-align: bottom; width: 100%; background-color: #330000; font-weight: bold; font-size: 9pt; font-family: Verdana;"
+                        Text="Welcome to New Tech Book Store" Width="326px"></asp:Label><br />
+                    <br />
+        <asp:contentplaceholder id="MainContent" runat="server">
+            </asp:contentplaceholder>
+                 
+                </td>
+                <td style="font-weight: bold; vertical-align: top; width: 12%; background-color: #330000; height: 314px;"
+                    valign="top">
+                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#FFFFC0"
+                        Text="New in store" Width="156px" style="font-weight: bold; font-size: 9pt; color: #ffffcc; font-style: normal; font-family: Verdana"></asp:Label>
+                    <asp:BulletedList ID="BulletedList2" runat="server" style="font-weight: normal; font-size: 8pt; color: #ffffff; font-style: normal; font-family: Verdana">
+                        <asp:ListItem>Cold Mountain</asp:ListItem>
+                        <asp:ListItem>Beyond Code</asp:ListItem>
+                        <asp:ListItem>Digital Logic</asp:ListItem>
+                    </asp:BulletedList>
+                    <br />
+                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#FFFFC0"
+                        Style="text-align: left; font-weight: bold; font-size: 9pt; color: #ffffcc; font-family: Verdana;" Text="Why buy from us?" Width="189px"></asp:Label>
+                    <asp:BulletedList ID="BulletedList1" runat="server" Style="text-align: left; font-weight: normal; font-size: 8pt; font-family: Verdana;">
+                        <asp:ListItem>Over 4.5 million books</asp:ListItem>
+                        <asp:ListItem>Lowest possible prizes</asp:ListItem>
+                        <asp:ListItem>Books for all age groups</asp:ListItem>
+                        <asp:ListItem>Order a book before it hits the market</asp:ListItem>
+                        <asp:ListItem>Promotion schemes</asp:ListItem>
+                    </asp:BulletedList>
+                    <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#FFFFC0"
+                        Style="text-align: left; font-weight: bold; font-size: 9pt; color: #ffffcc; font-family: Verdana;" Text="Join the book club" Width="228px"></asp:Label>
+                    
+                    <asp:BulletedList ID="BulletedList4" runat="server" Style="text-align: left; font-weight: normal; font-size: 8pt; color: #ffffff; font-family: Verdana;">
+                        <asp:ListItem>Get 10% discount</asp:ListItem>
+                        <asp:ListItem>Get books free worth $20</asp:ListItem>
+                    </asp:BulletedList>
+                    <br />
+                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#FFFFC0"
+                        Style="font-weight: bold; font-size: 9pt; color: #ffffcc; font-family: Verdana;
+                        text-align: left" Text="Customer service" Width="182px"></asp:Label><br />
+                    <br />
+                    <asp:BulletedList ID="BulletedList3" runat="server" Style="text-align: left; font-weight: normal; font-size: 8pt; color: #ffffff; font-family: Verdana;">
+                        <asp:ListItem>All orders are executed in the least possible time.</asp:ListItem>
+                        <asp:ListItem>Books are supplied all over the globe</asp:ListItem>
+                        <asp:ListItem>Books are thoroughly checked before dispatch.</asp:ListItem>
+                        <asp:ListItem>Best standard of packaging material is used.</asp:ListItem>
+                        <asp:ListItem Value="Multiple modes of payment are available.">Multiple modes of payment are available.</asp:ListItem>
+                    </asp:BulletedList>
+                </td>
+            </tr>
+            </table>
+        <table width="100%" style="background-attachment: scroll; background-image: url(Images/AdvTop.JPG);
+            background-repeat: no-repeat">
+            <tr>
+                <td align="right" colspan="3" style="background-color: #d6d476; width: 529px; vertical-align: top; text-align: left; height: 18px;">
+                    <asp:Label ID="Label1" runat="server" ForeColor="Black" Text="Copyright ©  New Tech Book Store 2007. All rights reserved."></asp:Label>&nbsp;</td>
+            </tr>
+        </table>
+    </form> 
+</body>
+
+    
+</html>
+

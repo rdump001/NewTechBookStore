@@ -1,0 +1,20 @@
+E:\WebPartFinalSolution\NTBSWebParts\bin\Debug\NTBSWebParts.dll
+E:\WebPartFinalSolution\NTBSWebParts\bin\Debug\NTBSWebParts.pdb
+E:\WebPartFinalSolution\NTBSWebParts\obj\Debug\ResolveAssemblyReference.cache
+E:\WebPartFinalSolution\NTBSWebParts\obj\Debug\NTBSWebParts.dll
+E:\WebPartFinalSolution\NTBSWebParts\obj\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\Chapter-9-Starter\NTBSWebParts\bin\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\Chapter-9-Starter\NTBSWebParts\bin\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\Chapter-9-Starter\NTBSWebParts\obj\Debug\ResolveAssemblyReference.cache
+F:\asp dATAfILE FOR eXERCISES\Chapter-9-Starter\NTBSWebParts\obj\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\Chapter-9-Starter\NTBSWebParts\obj\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\Solution 10-1\NTBSWebParts\bin\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\Solution 10-1\NTBSWebParts\bin\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\Solution 10-1\NTBSWebParts\obj\Debug\ResolveAssemblyReference.cache
+F:\asp dATAfILE FOR eXERCISES\Solution 10-1\NTBSWebParts\obj\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\Solution 10-1\NTBSWebParts\obj\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\SOLUTION-12-1\NTBSWebParts\bin\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\SOLUTION-12-1\NTBSWebParts\bin\Debug\NTBSWebParts.pdb
+F:\asp dATAfILE FOR eXERCISES\SOLUTION-12-1\NTBSWebParts\obj\Debug\ResolveAssemblyReference.cache
+F:\asp dATAfILE FOR eXERCISES\SOLUTION-12-1\NTBSWebParts\obj\Debug\NTBSWebParts.dll
+F:\asp dATAfILE FOR eXERCISES\SOLUTION-12-1\NTBSWebParts\obj\Debug\NTBSWebParts.pdb

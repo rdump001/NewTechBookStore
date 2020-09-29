@@ -1,0 +1,12 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Child.master.cs" Inherits="Child" MasterPageFile="~/toplevel.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+<table width="100%">
+        <tr>
+            <td style="border-style:solid;border-color:#0E0E6C">
+                <asp:ContentPlaceHolder ID="userEntryContent" runat="server" />
+            </td>
+        </tr>
+    </table>
+</asp:Content>
